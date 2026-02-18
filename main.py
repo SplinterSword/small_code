@@ -23,7 +23,7 @@ def main():
     )
     
     if args.verbose:
-        print("User Prompt: ", args.user_prompt)
+        print("User prompt: ", args.user_prompt)
         print("Prompt tokens:", response.usage_metadata.prompt_token_count)
         print("Response tokens:", response.usage_metadata.candidates_token_count)
     print(response.text)
